@@ -345,7 +345,7 @@ Widget SearchTasks({required context}) => ListView.separated(
                 ),
                 trailing: Text(
                   "From ${TasksCubit.get(context).searchTasks[index]['start_time']} To ${TasksCubit.get(context).searchTasks[index]['end_time']}",
-                  style: const TextStyle(fontSize: 7),
+                  style: const TextStyle(fontSize: 8),
                 ),
               ),
             )),
